@@ -1,0 +1,15 @@
+#!/bin/bash
+echo  enter the nos:
+read a
+read b
+add=`expr $a + $b`
+echo a+b = $add 
+sub=`expr $a - $b`
+echo a-b = $sub
+mul=`expr $a \* $b`
+echo a*b =  $mul
+div=`expr $a / $b`
+echo a/b =  $div
+mod=`expr $a % $b`
+echo a%b = $mod
+

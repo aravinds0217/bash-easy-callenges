@@ -1,0 +1,5 @@
+#!/bin/bash
+echo enter a string:
+read str
+l=`expr length $str`
+echo length $str is :$l

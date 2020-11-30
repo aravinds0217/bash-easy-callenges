@@ -1,0 +1,12 @@
+#!/bin/bash
+checkfile(){
+echo enter a file name:  
+read fname
+if [ -f $fname ]
+then
+          echo file present.
+else
+          echo file not present.
+fi
+}
+checkfile
